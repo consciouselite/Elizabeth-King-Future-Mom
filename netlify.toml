@@ -1,4 +1,9 @@
 [[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
   for = "/*.js"
   [headers.values]
     Content-Type = "text/javascript"
@@ -8,8 +13,12 @@
   [headers.values]
     Content-Type = "text/javascript"
 
-# For other assets that might be causing issues
 [[headers]]
   for = "/*.css"
   [headers.values]
-    Content-Type = "text/css" 
+    Content-Type = "text/css"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

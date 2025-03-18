@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "build:netlify": "vite build && node -e \"require('fs').writeFileSync('dist/_headers', '/*.js\\n  Content-Type: text/javascript\\n\\n/*.mjs\\n  Content-Type: text/javascript\\n\\n/*.css\\n  Content-Type: text/css')\"",
+    "netlify": "node netlify-build.cjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
