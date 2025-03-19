@@ -39,10 +39,10 @@ export const AgeSelect: React.FC<AgeSelectProps> = ({ value, onChange, onNext })
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
-      className="text-center"
+      className="text-center w-full"
     >
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Which age group do you belong to?</h2>
-      <div className="grid grid-cols-2 gap-4 max-w-3xl mx-auto">
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4 sm:mb-6">Which age group do you belong to?</h2>
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 max-w-3xl mx-auto">
         {ageGroups.map((group) => (
           <button
             key={group.range}
@@ -55,9 +55,9 @@ export const AgeSelect: React.FC<AgeSelectProps> = ({ value, onChange, onNext })
             <img
               src={group.image}
               alt={group.title}
-              className="w-full h-32 object-cover rounded-lg mb-3"
+              className="w-full h-20 sm:h-28 md:h-32 object-cover rounded-lg mb-2 sm:mb-3"
             />
-            <span className="text-lg">
+            <span className="text-sm sm:text-lg">
               {group.icon} {group.title}
             </span>
           </button>

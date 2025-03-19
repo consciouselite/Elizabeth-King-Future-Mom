@@ -142,7 +142,7 @@ export const QuizResult: React.FC<QuizResultProps> = ({ result, userData, score 
   
   return (
     <motion.div
-      className="result-card"
+      className="result-card w-full"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
@@ -152,25 +152,25 @@ export const QuizResult: React.FC<QuizResultProps> = ({ result, userData, score 
         alt={result.type}
         className="result-image"
       />
-      <h2 className="text-2xl font-bold text-indigo-700 mb-4">
+      <h2 className="text-xl sm:text-2xl font-bold text-indigo-700 mb-3 sm:mb-4">
         {userData.firstName}, your Career Confidence Score: {confidencePercentage.toFixed(0)}% {getScoreEmoji()}
       </h2>
-      <h3 className="text-xl font-semibold text-indigo-600 mb-3">
+      <h3 className="text-lg sm:text-xl font-semibold text-indigo-600 mb-2 sm:mb-3">
         Profile: {result.type}
       </h3>
-      <p className="text-gray-600 mb-6">{result.description}</p>
+      <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">{result.description}</p>
       
       <ConfidenceTips tips={result.tips} />
       
-      <div className="space-y-4 mt-8 p-6 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg shadow-sm">
-        <h3 className="font-bold text-xl text-indigo-700">Proud of your results? 😎</h3>
-        <p className="text-gray-600 mb-4">
+      <div className="space-y-3 sm:space-y-4 mt-6 sm:mt-8 p-4 sm:p-6 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg shadow-sm">
+        <h3 className="font-bold text-lg sm:text-xl text-indigo-700">Proud of your results? 😎</h3>
+        <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
           Let your friends discover if they have the same career confidence as you.
         </p>
         
         {shareMessage && (
           <motion.div 
-            className="bg-green-100 text-green-700 p-3 rounded-lg text-center mb-4"
+            className="bg-green-100 text-green-700 p-2 sm:p-3 rounded-lg text-center mb-3 sm:mb-4 text-sm sm:text-base"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
@@ -179,41 +179,41 @@ export const QuizResult: React.FC<QuizResultProps> = ({ result, userData, score 
           </motion.div>
         )}
         
-        <div className="flex justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
           <button 
             onClick={shareToFacebook}
             aria-label="Share to Facebook"
             className="share-button text-blue-600 hover:bg-blue-100 transform hover:scale-110 transition-all"
           >
-            <Facebook size={24} />
+            <Facebook size={20} className="sm:w-6 sm:h-6" />
           </button>
           <button 
             onClick={shareToTwitter}
             aria-label="Share to Twitter"
             className="share-button text-blue-400 hover:bg-blue-50 transform hover:scale-110 transition-all"
           >
-            <Twitter size={24} />
+            <Twitter size={20} className="sm:w-6 sm:h-6" />
           </button>
           <button 
             onClick={shareToLinkedin}
             aria-label="Share to LinkedIn"
             className="share-button text-blue-700 hover:bg-blue-50 transform hover:scale-110 transition-all"
           >
-            <Linkedin size={24} />
+            <Linkedin size={20} className="sm:w-6 sm:h-6" />
           </button>
           <button 
             onClick={shareToWhatsapp}
             aria-label="Share via message"
             className="share-button text-green-500 hover:bg-green-50 transform hover:scale-110 transition-all"
           >
-            <MessageCircle size={24} />
+            <MessageCircle size={20} className="sm:w-6 sm:h-6" />
           </button>
           <button 
             onClick={shareGeneral}
             aria-label="Share via other methods"
             className="share-button text-gray-600 hover:bg-gray-100 transform hover:scale-110 transition-all"
           >
-            <Share2 size={24} />
+            <Share2 size={20} className="sm:w-6 sm:h-6" />
           </button>
         </div>
       </div>

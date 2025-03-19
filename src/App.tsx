@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4">
+    <div className="min-h-screen bg-gray-50 py-4 sm:py-8 md:py-12 px-2 sm:px-4">
       <div className="quiz-container">
         {state.step !== 'welcome' && (
           <img
@@ -45,7 +45,7 @@ function App() {
           )}
           
           {state.step === 'form' && (
-            <h2 className="text-2xl font-bold text-indigo-700 mb-4">Where should we send you your results?</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-indigo-700 mb-4 text-center">Where should we send you your results?</h2>
           )}
           
           {state.step !== 'result' && state.step !== 'questions' && state.step !== 'gender' && state.step !== 'age' && state.step !== 'welcome' && state.step !== 'name' && state.step !== 'form' && (

@@ -18,9 +18,10 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.3 }}
+      className="w-full"
     >
       <h2 className="question-text">{question.text}</h2>
-      <div className="space-y-3">
+      <div className="space-y-2 sm:space-y-3">
         {question.options.map((option, index) => (
           <button
             key={index}
@@ -29,8 +30,8 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
             }`}
             onClick={() => onSelectAnswer(option.score)}
           >
-            <span className="text-2xl">{option.icon}</span>
-            <span>{option.text}</span>
+            <span className="text-xl sm:text-2xl">{option.icon}</span>
+            <span className="text-sm sm:text-base">{option.text}</span>
           </button>
         ))}
       </div>
