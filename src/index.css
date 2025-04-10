@@ -1,3 +1,123 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base colors */
+    --white: #FFFFFF;
+    
+    /* Primary colors */
+    --primary-100: #E7EFED;
+    --primary-200: #C2D6D1;
+    --primary-300: #9EBEB8;
+    --primary-400: #79A59E;
+    --primary-500: #558D84;
+    --primary-600: #30756B;
+    --primary-700: #146452;
+    --primary-800: #0F4E40;
+    --primary-900: #0A382E;
+    
+    /* Secondary colors */
+    --secondary-100: #FAF6EA;
+    --secondary-200: #F0E9D3;
+    --secondary-300: #E6DCB9;
+    --secondary-400: #DDC99E;
+    --secondary-500: #D4B96A;
+    --secondary-600: #BEA35A;
+    --secondary-700: #A88E4E;
+    --secondary-800: #7D6A3A;
+    --secondary-900: #574A28;
+    
+    /* Accent colors */
+    --accent-100: #FDFCFA;
+    --accent-200: #F9F7F2;
+    --accent-300: #F5F1E8;
+    --accent-400: #EBE5D7;
+    --accent-500: #E1D8C5;
+    --accent-600: #CBC0A8;
+    --accent-700: #B0A58C;
+    --accent-800: #877E6A;
+    --accent-900: #5E5849;
+
+    /* Supporting colors */
+    --success: #4B9F68;
+    --success-light: #E8F5E9;
+    --success-dark: #2E7D32;
+    --warning: #E8B046;
+    --warning-light: #FFF3E0;
+    --warning-dark: #EF6C00;
+    --error: #E15C5C;
+    --error-light: #FFEBEE;
+    --error-dark: #C62828;
+    --info: #5087B2;
+    --info-light: #E3F2FD;
+    --info-dark: #1565C0;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, #146452 0%, #0F4E40 100%);
+    --gradient-card: linear-gradient(to bottom, #F5F1E8 0%, white 100%);
+    --gradient-card-hover: linear-gradient(to bottom, #EBE5D7 0%, white 100%);
+    --gradient-accent: linear-gradient(to right, #D4B96A 0%, #BEA35A 100%);
+    
+    /* Typography */
+    --font-family-display: 'Montserrat', sans-serif;
+    --font-family-heading: 'Montserrat', sans-serif;
+    --font-family-body: 'Montserrat', sans-serif;
+    
+    /* Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    /* Font Sizes */
+    --font-size-display-1: 3rem;
+    --font-size-display-2: 2.25rem;
+    --font-size-h1: 1.875rem;
+    --font-size-h2: 1.5rem;
+    --font-size-h3: 1.25rem;
+    --font-size-h4: 1.125rem;
+    --font-size-large: 1.125rem;
+    --font-size-base: 1rem;
+    --font-size-small: 0.875rem;
+    --font-size-xs: 0.75rem;
+    
+    /* Line Heights */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    
+    /* Spacing */
+    --spacing-0: 0;
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.5rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-6: 1.5rem;
+    --spacing-8: 2rem;
+    --spacing-12: 3rem;
+    --spacing-16: 4rem;
+    --spacing-20: 5rem;
+    --spacing-24: 6rem;
+    
+    /* Border Radius */
+    --radius-none: 0;
+    --radius-sm: 0.125rem;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
+    --radius-full: 9999px;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+    
+    /* Coach Info */
+    --coach-name: "Elizabeth King";
+    --coach-profile-image: "https://nrojbwxcqochzwhmmkql.supabase.co/storage/v1/object/sign/coaches-profile-images/Elizabeth%20King%20PP.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJjb2FjaGVzLXByb2ZpbGUtaW1hZ2VzL0VsaXphYmV0aCBLaW5nIFBQLnBuZyIsImlhdCI6MTc0MzUxNzEzMCwiZXhwIjoxNzc1MDUzMTMwfQ.J8kyDe9RYhULcMAR_dXYlqAY0NAc2w1J24c1kMe_7Lg";
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "framework": "Type",
+  "title": "What Kind of Mom Will You Be?",
+  "description": "Discover your natural motherhood style and how it creates magic (or chaos) in your parenting journey",
+  "targetProblem": "Uncertainty about your parenting style and doubts about your natural motherhood instincts",
+  "callToAction": "Find your mom type!",
+  "resultBenefit": "Custom strategies to leverage your natural motherhood gifts",
+  "types": [
+    {
+      "name": "The Nurturing Navigator Mom",
+      "description": "You have the rare gift of creating emotional safety and connection"
+    },
+    {
+      "name": "The Structured Stability Mom",
+      "description": "You create the systems and routines that help families thrive"
+    },
+    {
+      "name": "The Wisdom Cultivator Mom",
+      "description": "You raise tiny philosophers who question and understand the world"
+    },
+    {
+      "name": "The Adventure Catalyst Mom",
+      "description": "You turn ordinary moments into magical adventures and memories"
+    },
+    {
+      "name": "The Empowered Advocate Mom",
+      "description": "You raise changemakers who stand up for themselves and others"
+    }
+  ]
+} 

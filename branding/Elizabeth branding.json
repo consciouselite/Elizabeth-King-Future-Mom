@@ -1,0 +1,766 @@
+﻿{
+    "coach":  {
+                  "profilePicture":  "https://nrojbwxcqochzwhmmkql.supabase.co/storage/v1/object/sign/coaches-profile-images/Elizabeth%20King%20PP.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJjb2FjaGVzLXByb2ZpbGUtaW1hZ2VzL0VsaXphYmV0aCBLaW5nIFBQLnBuZyIsImlhdCI6MTc0MzUxNzEzMCwiZXhwIjoxNzc1MDUzMTMwfQ.J8kyDe9RYhULcMAR_dXYlqAY0NAc2w1J24c1kMe_7Lg",
+                  "backstory":  {
+                                    "heroJourney":  {
+                                                        "transformationProcess":  "Developing expertise in fertility coaching",
+                                                        "lessonsLearned":  "The power of support and guidance in fertility journeys",
+                                                        "currentSuccessState":  "Established fertility coach and trainer",
+                                                        "challengesFaced":  "Navigating fertility journey and emotional healing",
+                                                        "startingPoint":  "Personal fertility challenges and losses",
+                                                        "whyHelpingOthers":  "Passion for supporting women through their fertility and motherhood journeys"
+                                                    }
+                                },
+                  "socialLinks":  {
+                                      "whatsapp":  "https://wa.me/1XXXXXXXXXX",
+                                      "youtube":  "https://youtube.com/elizabethkingcoaching",
+                                      "instagram":  "https://instagram.com/elizabethkingcoaching",
+                                      "website":  "https://elizabethkingcoaching.com",
+                                      "email":  "elizabeth@elizabethkingcoaching.com",
+                                      "tiktok":  "https://tiktok.com/@elizabethkingcoaching",
+                                      "facebook":  "",
+                                      "twitter":  "",
+                                      "linkedin":  ""
+                                  },
+                  "mission":  {
+                                "mission": "To support women through their fertility, pregnancy, and motherhood journeys while training others to become certified fertility coaches, creating a nurturing and professional environment for transformation.",
+                                "statement": "Elizabeth King Coaching focuses on empowering women on their journey to motherhood through personalized fertility coaching and certification programs for aspiring fertility coaches.",
+                                "belief": "Every woman deserves compassionate, professional guidance on her journey to motherhood."
+                            },
+                  "targetAudience":  {
+                                         "limitingBeliefs":  [
+                                                                 "I can't conceive",
+                                                                 "I'm too old",
+                                                                 "My body is broken",
+                                                                 "I'm not worthy",
+                                                                 "It's too late"
+                                                             ],
+                                         "wants":  [
+                                                                 "Fertility support",
+                                                                 "Pregnancy guidance",
+                                                                 "Motherhood preparation",
+                                                                 "Emotional healing",
+                                                                 "Professional certification"
+                                                             ],
+                                         "fears":  [
+                                                                 "Fear of failure",
+                                                                 "Fear of loss",
+                                                                 "Fear of judgment",
+                                                                 "Fear of the unknown",
+                                                                 "Fear of commitment"
+                                                             ],
+                                         "copingMechanism":  [
+                                                                 "Medical treatments",
+                                                                 "Online research",
+                                                                 "Support groups",
+                                                                 "Self-help books",
+                                                                 "Alternative therapies"
+                                                             ],
+                                         "objections":  {
+                                                            "skepticismBasedObjections":  {
+                                                                                              "category":  "Program Efficacy",
+                                                                                              "commonStatements":  [
+                                                                                                                    "Will this really help me conceive?",
+                                                                                                                    "How is this different from other programs?",
+                                                                                                                    "Can coaching actually make a difference?"
+                                                                                                                ],
+                                                                                              "responseApproach":  "Share success stories and highlight unique certifications and approach"
+                                                                                          },
+                                                            "timeBasedObjections":  {
+                                                                                        "category":  "Time Investment",
+                                                                                        "commonStatements":  [
+                                                                                                              "No time for fertility tracking",
+                                                                                                              "Busy with treatments",
+                                                                                                              "Family responsibilities"
+                                                                                                          ],
+                                                                                        "responseApproach":  "Emphasize flexible, personalized support that fits their schedule"
+                                                                                    },
+                                                            "valueBasedObjections":  {
+                                                                                         "category":  "Investment Worth",
+                                                                                         "commonStatements":  [
+                                                                                                              "Cost of coaching",
+                                                                                                              "Investment in fertility",
+                                                                                                              "Value of certification"
+                                                                                                          ],
+                                                                                         "responseApproach":  "Demonstrate long-term value and success rates"
+                                                                                     },
+                                                            "capabilityBasedObjections":  {
+                                                                                              "category":  "Personal Ability",
+                                                                                              "commonStatements":  [
+                                                                                                                    "Don't know where to start",
+                                                                                                                    "Can't maintain habits",
+                                                                                                                    "Lack of confidence"
+                                                                                                                ],
+                                                                                              "responseApproach":  "Highlight comprehensive support and step-by-step guidance"
+                                                                                          }
+                                                        },
+                                         "enemies":  [
+                                                                 "Fertility challenges",
+                                                                 "Emotional pain",
+                                                                 "Lack of support",
+                                                                 "Uncertainty",
+                                                                 "Self-doubt"
+                                                             ],
+                                         "dreams":  [
+                                                                 "Healthy pregnancy",
+                                                                 "Successful motherhood",
+                                                                 "Emotional healing",
+                                                                 "Professional growth",
+                                                                 "Personal fulfillment"
+                                                             ],
+                                         "frustrations":  [
+                                                                 "Difficulty conceiving",
+                                                                 "Pregnancy challenges",
+                                                                 "Motherhood transition",
+                                                                 "Emotional struggles",
+                                                                 "Career uncertainty"
+                                                             ],
+                                         "details":  {
+                                                                "ageRange":  "25-45",
+                                                                "gender":  "Women",
+                                                                "painPoints":  [
+                                                                                "Struggling with fertility issues",
+                                                                                "Difficulty navigating pregnancy challenges",
+                                                                                "Feeling overwhelmed by the transition to motherhood",
+                                                                                "Wanting to become a certified fertility coach"
+                                                                            ],
+                                                                "wants":  [
+                                                                                "Professional guidance through fertility challenges",
+                                                                                "Support during pregnancy",
+                                                                                "Tools to navigate motherhood",
+                                                                                "Certification as a fertility coach"
+                                                                            ],
+                                                                "fears":  [
+                                                                                "Not being able to conceive",
+                                                                                "Pregnancy complications",
+                                                                                "Not being prepared for motherhood",
+                                                                                "Lack of credibility as a fertility coach"
+                                                                            ],
+                                                                "objections":  [
+                                                                                "Fertility coaching is too expensive",
+                                                                                "I should be able to navigate this on my own",
+                                                                                "I don't have time for certification training",
+                                                                                "There are already too many fertility coaches"
+                                                                            ]
+                                                            }
+                                     },
+                  "habits":  {
+                                 "suggestions":  [
+                                                     {
+                                                         "id": "fertility_tracking",
+                                                         "name": "Fertility Tracking",
+                                                         "category": "fertility",
+                                                         "description": "Track and understand your fertility cycle for better conception chances."
+                                                     },
+                                                     {
+                                                         "id": "pregnancy_care",
+                                                         "name": "Pregnancy Care",
+                                                         "category": "pregnancy",
+                                                         "description": "Practice healthy habits to support a healthy pregnancy journey."
+                                                     },
+                                                     {
+                                                         "id": "motherhood_prep",
+                                                         "name": "Motherhood Preparation",
+                                                         "category": "motherhood",
+                                                         "description": "Prepare for the transition into motherhood with confidence."
+                                                     },
+                                                     {
+                                                         "id": "holistic_wellness",
+                                                         "name": "Holistic Wellness",
+                                                         "category": "wellness",
+                                                         "description": "Maintain overall well-being through balanced lifestyle choices."
+                                                     },
+                                                     {
+                                                         "id": "emotional_healing",
+                                                         "name": "Emotional Healing",
+                                                         "category": "healing",
+                                                         "description": "Process and heal from past experiences and losses."
+                                                     }
+                                                 ],
+                                 "categories":  [
+                                                    {
+                                                        "name": "Fertility",
+                                                        "id": "fertility",
+                                                        "emoji": "🌱"
+                                                    },
+                                                    {
+                                                        "name": "Pregnancy",
+                                                        "id": "pregnancy",
+                                                        "emoji": "🤰"
+                                                    },
+                                                    {
+                                                        "name": "Motherhood",
+                                                        "id": "motherhood",
+                                                        "emoji": "👶"
+                                                    },
+                                                    {
+                                                        "name": "Wellness",
+                                                        "id": "wellness",
+                                                        "emoji": "✨"
+                                                    },
+                                                    {
+                                                        "name": "Healing",
+                                                        "id": "healing",
+                                                        "emoji": "💝"
+                                                    }
+                                                ],
+                                 "keyEmotions":  [
+                                                     "Hope",
+                                                     "Anxiety",
+                                                     "Excitement",
+                                                     "Uncertainty",
+                                                     "Determination"
+                                                 ],
+                                 "keyWords":  [
+                                                     "Fertility",
+                                                     "Pregnancy",
+                                                     "Motherhood",
+                                                     "Coaching",
+                                                     "Certification",
+                                                     "Support",
+                                                     "Nurturing",
+                                                     "Professional",
+                                                     "Empowerment",
+                                                     "Journey"
+                                                 ],
+                                 "keyBeliefs":  [
+                                                     "Professional guidance can transform a fertility journey",
+                                                     "Every woman deserves personalized support during pregnancy",
+                                                     "Motherhood preparation requires specialized coaching",
+                                                     "Fertility coach certification creates impactful professionals"
+                                                 ]
+                             },
+                  "name":  "Elizabeth King",
+                  "brand":  {
+                                "supportingColors":  {
+                                                         "error":  {
+                                                                       "dark":  "#C62828",
+                                                                       "default":  "#E15C5C",
+                                                                       "light":  "#FFEBEE"
+                                                                   },
+                                                         "warning":  {
+                                                                         "dark":  "#EF6C00",
+                                                                         "default":  "#E8B046",
+                                                                         "light":  "#FFF3E0"
+                                                                     },
+                                                         "info":  {
+                                                                      "dark":  "#1565C0",
+                                                                      "default":  "#5087B2",
+                                                                      "light":  "#E3F2FD"
+                                                                  },
+                                                         "success":  {
+                                                                         "dark":  "#2E7D32",
+                                                                         "default":  "#4B9F68",
+                                                                         "light":  "#E8F5E9"
+                                                                     },
+                                                         "primary":  "#146452",
+                                                         "secondary":  "#D4B96A",
+                                                         "accent":  "#F5F1E8",
+                                                         "primaryScale":  {
+                                                                                 "100":  "#E7EFED",
+                                                                                 "200":  "#C2D6D1",
+                                                                                 "300":  "#9EBEB8",
+                                                                                 "400":  "#79A59E",
+                                                                                 "500":  "#558D84",
+                                                                                 "600":  "#30756B",
+                                                                                 "700":  "#146452",
+                                                                                 "800":  "#0F4E40",
+                                                                                 "900":  "#0A382E"
+                                                                             },
+                                                         "secondaryScale":  {
+                                                                                 "100":  "#FAF6EA",
+                                                                                 "200":  "#F0E9D3",
+                                                                                 "300":  "#E6DCB9",
+                                                                                 "400":  "#DDC99E",
+                                                                                 "500":  "#D4B96A",
+                                                                                 "600":  "#BEA35A",
+                                                                                 "700":  "#A88E4E",
+                                                                                 "800":  "#7D6A3A",
+                                                                                 "900":  "#574A28"
+                                                                             },
+                                                         "accentScale":  {
+                                                                                 "100":  "#FDFCFA",
+                                                                                 "200":  "#F9F7F2",
+                                                                                 "300":  "#F5F1E8",
+                                                                                 "400":  "#EBE5D7",
+                                                                                 "500":  "#E1D8C5",
+                                                                                 "600":  "#CBC0A8",
+                                                                                 "700":  "#B0A58C",
+                                                                                 "800":  "#877E6A",
+                                                                                 "900":  "#5E5849"
+                                                                             }
+                                                     },
+                                "borderRadius":  {
+                                                     "md":  "0.375rem",
+                                                     "lg":  "0.5rem",
+                                                     "xl":  "0.75rem",
+                                                     "none":  "0",
+                                                     "sm":  "0.125rem",
+                                                     "full":  "9999px",
+                                                     "2xl":  "1rem"
+                                                 },
+                                "spacing":  {
+                                                "16":  "4rem",
+                                                "12":  "3rem",
+                                                "3":  "0.75rem",
+                                                "20":  "5rem",
+                                                "4":  "1rem",
+                                                "2":  "0.5rem",
+                                                "1":  "0.25rem",
+                                                "0":  "0",
+                                                "24":  "6rem",
+                                                "6":  "1.5rem",
+                                                "8":  "2rem"
+                                            },
+                                "shadows":  {
+                                                "sm":  "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+                                                "lg":  "0 10px 15px -3px rgb(0 0 0 / 0.1)",
+                                                "md":  "0 4px 6px -1px rgb(0 0 0 / 0.1)",
+                                                "xl":  "0 20px 25px -5px rgb(0 0 0 / 0.1)"
+                                            },
+                                "typography":  {
+                                                   "heading":  {
+                                                                   "weights":  {
+                                                                                   "bold":  700,
+                                                                                   "semibold":  600,
+                                                                                   "medium":  500
+                                                                               },
+                                                                   "usage":  "Section headers, navigation, card titles",
+                                                                   "fontFamily":  null
+                                                               },
+                                                   "body":  {
+                                                                "weights":  {
+                                                                                "regular":  400,
+                                                                                "medium":  500,
+                                                                                "semibold":  600
+                                                                            },
+                                                                "usage":  "Body text, UI elements, buttons",
+                                                                "fontFamily":  null
+                                                            },
+                                                   "scale":  {
+                                                                 "heading":  {
+                                                                                 "h2":  "1.5rem",
+                                                                                 "h4":  "1.125rem",
+                                                                                 "h1":  "1.875rem",
+                                                                                 "h3":  "1.25rem"
+                                                                             },
+                                                                 "body":  {
+                                                                              "large":  "1.125rem",
+                                                                              "small":  "0.875rem",
+                                                                              "xs":  "0.75rem",
+                                                                              "base":  "1rem"
+                                                                          },
+                                                                 "display":  {
+                                                                                 "2":  "2.25rem",
+                                                                                 "1":  "3rem"
+                                                                             }
+                                                             },
+                                                   "display":  {
+                                                                   "weights":  {
+                                                                                   "bold":  700
+                                                                               },
+                                                                   "usage":  "Hero sections, major entry points, impactful headlines",
+                                                                   "fontFamily":  null
+                                                               },
+                                                   "lineHeight":  {
+                                                                      "tight":  "1.25",
+                                                                      "relaxed":  "1.75",
+                                                                      "normal":  "1.5"
+                                                                  }
+                                               },
+                                "gradients":  {
+                                                  "primary":  {
+                                                                  "hero": {
+                                                                      "background": "linear-gradient(135deg, #146452 0%, #0F4E40 100%)",
+                                                                      "overlay": "linear-gradient(rgba(20, 100, 82, 0.8), rgba(15, 78, 64, 0.9))"
+                                                                  },
+                                                                  "card": {
+                                                                      "background": "linear-gradient(to bottom, #F5F1E8 0%, white 100%)",
+                                                                      "hover": "linear-gradient(to bottom, #EBE5D7 0%, white 100%)"
+                                                                  }
+                                                              },
+                                                  "secondary":  {
+                                                                  "accent": {
+                                                                      "background": "linear-gradient(to right, #D4B96A 0%, #BEA35A 100%)",
+                                                                      "overlay": "linear-gradient(rgba(212, 185, 106, 0.8), rgba(190, 163, 90, 0.9))"
+                                                                  }
+                                                              }
+                                              },
+                                "colorSystem":  {
+                                                    "accent":  {
+                                                                   "200":  null,
+                                                                   "300":  null,
+                                                                   "700":  null,
+                                                                   "hover":  null,
+                                                                   "name":  null,
+                                                                   "600":  null,
+                                                                   "100":  null,
+                                                                   "500":  null,
+                                                                   "400":  null
+                                                               },
+                                                    "secondary":  {
+                                                                      "200":  "#F1F5F9",
+                                                                      "300":  "#E2E8F0",
+                                                                      "700":  "#475569",
+                                                                      "800":  "#27272A",
+                                                                      "name":  "slate",
+                                                                      "600":  "#64748B",
+                                                                      "100":  "#F8FAFC",
+                                                                      "500":  "#94A3B8",
+                                                                      "400":  "#CBD5E1",
+                                                                      "900":  "#020617"
+                                                                  },
+                                                    "primary":  {
+                                                                    "200":  null,
+                                                                    "300":  null,
+                                                                    "700":  null,
+                                                                    "800":  null,
+                                                                    "name":  null,
+                                                                    "600":  null,
+                                                                    "100":  null,
+                                                                    "500":  null,
+                                                                    "400":  null,
+                                                                    "900":  null
+                                                                },
+                                                    "base":  {
+                                                                 "default":  "#FFFFFF",
+                                                                 "name":  "white"
+                                                             }
+                                                },
+                                "componentTokens":  {
+                                                        "input":  {
+                                                                      "placeholder":  "var(--secondary-500)",
+                                                                      "focus":  {
+                                                                                    "border":  "var(--primary-500)",
+                                                                                    "ring":  "var(--primary-500)"
+                                                                                },
+                                                                      "background":  "white",
+                                                                      "border":  "var(--secondary-300)",
+                                                                      "text":  "var(--secondary-900)"
+                                                                  },
+                                                        "card":  {
+                                                                     "radius":  "var(--radius-lg)",
+                                                                     "background":  "white",
+                                                                     "border":  "var(--secondary-200)",
+                                                                     "shadow":  "var(--shadow-md)",
+                                                                     "padding":  "var(--spacing-6)"
+                                                                 },
+                                                        "button":  {
+                                                                       "accent":  {
+                                                                                      "fontSize":  "var(--fontSize-base)",
+                                                                                      "fontWeight":  "var(--fontWeight-medium)",
+                                                                                      "text":  "white",
+                                                                                      "paddingVertical":  "var(--spacing-2)",
+                                                                                      "background":  "var(--accent-500)",
+                                                                                      "hover":  "var(--accent-600)",
+                                                                                      "active":  "var(--accent-700)",
+                                                                                      "borderRadius":  "var(--borderRadius-md)",
+                                                                                      "paddingHorizontal":  "var(--spacing-4)"
+                                                                                  },
+                                                                       "secondary":  {
+                                                                                         "paddingHorizontal":  "var(--spacing-4)",
+                                                                                         "fontSize":  "var(--fontSize-base)",
+                                                                                         "fontWeight":  "var(--fontWeight-medium)",
+                                                                                         "text":  "var(--primary-500)",
+                                                                                         "border":  "var(--primary-500)",
+                                                                                         "background":  "white",
+                                                                                         "hover":  "var(--primary-50)",
+                                                                                         "active":  "var(--primary-100)",
+                                                                                         "borderRadius":  "var(--borderRadius-md)",
+                                                                                         "paddingVertical":  "var(--spacing-2)"
+                                                                                     },
+                                                                       "primary":  {
+                                                                                       "paddingHorizontal":  "var(--spacing-4)",
+                                                                                       "fontSize":  "var(--fontSize-base)",
+                                                                                       "fontWeight":  "var(--fontWeight-medium)",
+                                                                                       "text":  "white",
+                                                                                       "disabled":  "var(--primary-300)",
+                                                                                       "background":  "var(--primary-500)",
+                                                                                       "hover":  "var(--primary-600)",
+                                                                                       "active":  "var(--primary-700)",
+                                                                                       "borderRadius":  "var(--borderRadius-md)",
+                                                                                       "paddingVertical":  "var(--spacing-2)"
+                                                                                   }
+                                                                   },
+                                                        "cards":  {
+                                                                     "background":  "white",
+                                                                     "border":  "1px solid #E1D8C5",
+                                                                     "borderRadius":  "8px",
+                                                                     "shadow":  "0 2px 8px rgba(20, 100, 82, 0.05)",
+                                                                     "padding":  "1.5rem",
+                                                                     "headerTextColor":  "#146452",
+                                                                     "bodyTextColor":  "#0A382E",
+                                                                     "hover":  "Shadow 0 4px 12px rgba(20, 100, 82, 0.08)"
+                                                                 },
+                                                        "formInputs":  {
+                                                                          "background":  "white",
+                                                                          "text":  "#0A382E",
+                                                                          "border":  "1px solid #E1D8C5",
+                                                                          "borderRadius":  "4px",
+                                                                          "padding":  "0.75rem 1rem",
+                                                                          "font":  "Montserrat Regular",
+                                                                          "placeholder":  "#A88E4E",
+                                                                          "focusBorder":  "#146452",
+                                                                          "focusRing":  "rgba(20, 100, 82, 0.2)"
+                                                                      },
+                                                        "navigation":  {
+                                                                          "background":  "white",
+                                                                          "text":  "#0A382E",
+                                                                          "activeText":  "#146452",
+                                                                          "hover":  "#30756B",
+                                                                          "divider":  "#F5F1E8",
+                                                                          "mobileMenuBackground":  "#FDFCFA",
+                                                                          "mobileMenuOverlay":  "rgba(20, 100, 82, 0.5)"
+                                                                      }
+                                                    }
+                            },
+                  "archetype":  "Alternative Medicine",
+                  "quizTopics":  [
+                    {
+                        "id": "fertility_archetype",
+                        "title": "What Type of Fertility Journeyer Are You?",
+                        "framework": "Type Framework",
+                        "description": "Take this quick 2-minute quiz to discover your unique fertility personality and get personalized tips for your journey!",
+                        "metrics": {
+                            "shareabilityFactor": 9,
+                            "thatSoMeLevel": 9,
+                            "entertainmentValue": 8,
+                            "ahaMomentPotential": 9,
+                            "strategicFit": 10,
+                            "cognitiveEase": 10
+                        },
+                        "targetGroup": "women_fertility_journey",
+                        "categories": [
+                            {
+                                "name": "The Intuitive Nurturer",
+                                "description": "You naturally tune into your body's wisdom and prioritize self-care throughout your fertility journey.",
+                                "nextSteps": "Focus on deepening your intuitive practices with our guided fertility meditation series."
+                            },
+                            {
+                                "name": "The Research-Driven Planner",
+                                "description": "You thrive on information and prefer making fertility decisions based on thorough research and expert advice.",
+                                "nextSteps": "Our evidence-based fertility tracking system was made for analytical minds like yours!"
+                            },
+                            {
+                                "name": "The Balanced Optimizer",
+                                "description": "You seek harmony between scientific approaches and emotional wellbeing on your path to conception.",
+                                "nextSteps": "Our holistic fertility program combines medical insights with mindfulness practices just for you."
+                            },
+                            {
+                                "name": "The Community Builder",
+                                "description": "You find strength in connection and value sharing experiences with others on similar fertility journeys.",
+                                "nextSteps": "Join our supportive fertility circle where women like you share wisdom and encouragement."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "motherhood_readiness",
+                        "title": "What Kind of Mom Will You Be?",
+                        "framework": "Type Framework",
+                        "description": "Curious about your motherhood style? Take this fun 5-question quiz to discover your natural parenting strengths!",
+                        "metrics": {
+                            "shareabilityFactor": 10,
+                            "thatSoMeLevel": 9,
+                            "entertainmentValue": 9,
+                            "ahaMomentPotential": 8,
+                            "strategicFit": 9,
+                            "cognitiveEase": 10
+                        },
+                        "targetGroup": "expecting_mothers",
+                        "categories": [
+                            {
+                                "name": "The Nurturing Guide",
+                                "description": "You naturally create secure attachments and emotional safety, helping your child explore with confidence.",
+                                "nextSteps": "Our attachment-focused motherhood preparation class will enhance your natural parenting style."
+                            },
+                            {
+                                "name": "The Playful Explorer",
+                                "description": "You bring fun and creativity to motherhood, turning everyday moments into adventures and learning experiences.",
+                                "nextSteps": "Check out our playful parenting workshop to build on your natural creativity as a mom."
+                            },
+                            {
+                                "name": "The Calm Anchor",
+                                "description": "You create stability and peaceful routines, helping your child feel secure even during challenging transitions.",
+                                "nextSteps": "Our mindful motherhood program will complement your natural ability to create calm."
+                            },
+                            {
+                                "name": "The Wise Teacher",
+                                "description": "You naturally look for growth opportunities and love sharing knowledge with your child at every stage.",
+                                "nextSteps": "Our developmental milestone guide will give you even more ways to nurture your child's learning."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fertility_mistakes",
+                        "title": "Are You Making These 5 Fertility Mistakes Without Realizing It?",
+                        "framework": "Killer Framework",
+                        "description": "Discover if everyday habits might be affecting your fertility in this eye-opening 3-minute quiz!",
+                        "metrics": {
+                            "shareabilityFactor": 9,
+                            "thatSoMeLevel": 8,
+                            "entertainmentValue": 7,
+                            "ahaMomentPotential": 10,
+                            "strategicFit": 10,
+                            "cognitiveEase": 8
+                        },
+                        "targetGroup": "women_fertility_journey",
+                        "mistakes": [
+                            {
+                                "mistake": "Tracking only one fertility sign",
+                                "solution": "Learn how our comprehensive fertility tracking system helps you identify your most fertile days with multiple indicators."
+                            },
+                            {
+                                "mistake": "Letting stress sabotage your cycle",
+                                "solution": "Discover our science-backed stress reduction techniques specifically designed for women on fertility journeys."
+                            },
+                            {
+                                "mistake": "Missing your body's natural fertility window",
+                                "solution": "Our precision fertility coaching helps you identify and optimize your unique fertility patterns."
+                            },
+                            {
+                                "mistake": "Using products that disrupt hormonal balance",
+                                "solution": "Get our free guide to fertility-friendly products and easy household swaps."
+                            },
+                            {
+                                "mistake": "Going through your fertility journey alone",
+                                "solution": "Join our supportive community of women who understand exactly what you're experiencing."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "coaching_mistakes",
+                        "title": "Are You Making These 3 Mistakes That Keep You From Becoming a Successful Fertility Coach?",
+                        "framework": "Killer Framework",
+                        "description": "Take this quick quiz to uncover the common pitfalls preventing aspiring coaches from building thriving practices!",
+                        "metrics": {
+                            "shareabilityFactor": 8,
+                            "thatSoMeLevel": 9,
+                            "entertainmentValue": 7,
+                            "ahaMomentPotential": 10,
+                            "strategicFit": 9,
+                            "cognitiveEase": 9
+                        },
+                        "targetGroup": "aspiring_coaches",
+                        "mistakes": [
+                            {
+                                "mistake": "Lacking proper certification and credibility",
+                                "solution": "Our professional fertility coach certification program gives you the credentials clients are looking for."
+                            },
+                            {
+                                "mistake": "Using generic coaching approaches instead of fertility-specific methods",
+                                "solution": "Learn our specialized fertility coaching framework developed through years of successful client work."
+                            },
+                            {
+                                "mistake": "Not knowing how to address the emotional aspects of fertility journeys",
+                                "solution": "Our training includes advanced emotional support techniques specifically for fertility clients."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fertility_readiness",
+                        "title": "How Ready Are You for Your Fertility Journey?",
+                        "framework": "Score Framework",
+                        "description": "Take this simple 2-minute quiz to measure your fertility readiness and get personalized next steps!",
+                        "metrics": {
+                            "shareabilityFactor": 8,
+                            "thatSoMeLevel": 9,
+                            "entertainmentValue": 7,
+                            "ahaMomentPotential": 9,
+                            "strategicFit": 10,
+                            "cognitiveEase": 9
+                        },
+                        "targetGroup": "women_fertility_journey",
+                        "scoreRanges": [
+                            {
+                                "range": "0-40",
+                                "title": "Just Starting Out",
+                                "description": "You're at the beginning of your fertility awareness journey with great potential for quick wins.",
+                                "nextSteps": "Start with our Fertility Foundations mini-course to build essential knowledge."
+                            },
+                            {
+                                "range": "41-70",
+                                "title": "Growing Awareness",
+                                "description": "You have some fertility knowledge but could benefit from more structured guidance.",
+                                "nextSteps": "Our Fertility Clarity program will help you fill knowledge gaps and create an effective plan."
+                            },
+                            {
+                                "range": "71-90",
+                                "title": "Well-Prepared",
+                                "description": "You've built strong fertility awareness and are ready for more advanced strategies.",
+                                "nextSteps": "Our Fertility Optimization coaching will help you fine-tune your approach."
+                            },
+                            {
+                                "range": "91-100",
+                                "title": "Fertility Expert",
+                                "description": "You have exceptional fertility knowledge and preparation!",
+                                "nextSteps": "Consider our advanced programs or even our fertility coach certification if you're passionate about helping others."
+                            }
+                        ]
+                    },
+                    {
+                        "id": "motherhood_confidence",
+                        "title": "How Confident Are You About Your Motherhood Journey?",
+                        "framework": "Score Framework",
+                        "description": "Measure your motherhood readiness in just 3 minutes and discover personalized resources to boost your confidence!",
+                        "metrics": {
+                            "shareabilityFactor": 9,
+                            "thatSoMeLevel": 10,
+                            "entertainmentValue": 8,
+                            "ahaMomentPotential": 9,
+                            "strategicFit": 10,
+                            "cognitiveEase": 10
+                        },
+                        "targetGroup": "expecting_mothers",
+                        "scoreRanges": [
+                            {
+                                "range": "0-40",
+                                "title": "Building Confidence",
+                                "description": "You're in the early stages of motherhood preparation with normal concerns and questions.",
+                                "nextSteps": "Our Motherhood Essentials program will build your knowledge and confidence in key areas."
+                            },
+                            {
+                                "range": "41-70",
+                                "title": "Growing Confidence",
+                                "description": "You've developed good motherhood knowledge but have specific areas where you'd like more support.",
+                                "nextSteps": "Our targeted motherhood workshops address common concerns and build practical skills."
+                            },
+                            {
+                                "range": "71-90",
+                                "title": "Confident Preparation",
+                                "description": "You've built strong motherhood readiness but want to ensure you're fully prepared.",
+                                "nextSteps": "Our Motherhood Mastery program will help you prepare for the unexpected challenges."
+                            },
+                            {
+                                "range": "91-100",
+                                "title": "Motherhood Maven",
+                                "description": "You have exceptional preparation and confidence for your motherhood journey!",
+                                "nextSteps": "Consider our community leadership program to share your knowledge with other expecting mothers."
+                            }
+                        ]
+                    }
+                  ],
+                  "proof":  {
+                                "testimonials":  [
+                                                     {
+                                                         "background":  "",
+                                                         "name":  "",
+                                                         "result":  "",
+                                                         "text":  ""
+                                                     }
+                                                 ],
+                                "currentLifestyleProof":  [
+
+                                                          ],
+                                "celebrityEndorsements":  [
+                                                              {
+                                                                  "platform":  "",
+                                                                  "name":  "",
+                                                                  "text":  ""
+                                                              }
+                                                          ],
+                                "coachResults":  [
+
+                                                 ]
+                            }
+              }
+}

@@ -2,53 +2,216 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    /* Primary Colors - Elizabeth King Green */
+    --primary-100: #E7EFED;
+    --primary-200: #C2D6D1;
+    --primary-300: #9EBEB8;
+    --primary-400: #79A59E;
+    --primary-500: #558D84;
+    --primary-600: #30756B;
+    --primary-700: #146452;
+    --primary-800: #0F4E40;
+    --primary-900: #0A382E;
+    
+    /* Secondary Colors - Elizabeth King Gold */
+    --secondary-100: #FAF6EA;
+    --secondary-200: #F0E9D3;
+    --secondary-300: #E6DCB9;
+    --secondary-400: #DDC99E;
+    --secondary-500: #D4B96A;
+    --secondary-600: #BEA35A;
+    --secondary-700: #A88E4E;
+    --secondary-800: #7D6A3A;
+    --secondary-900: #574A28;
+    
+    /* Accent Colors - Elizabeth King Cream */
+    --accent-100: #FDFCFA;
+    --accent-200: #F9F7F2;
+    --accent-300: #F5F1E8;
+    --accent-400: #EBE5D7;
+    --accent-500: #E1D8C5;
+    --accent-600: #CBC0A8;
+    --accent-700: #B0A58C;
+    --accent-800: #877E6A;
+    --accent-900: #5E5849;
+    
+    /* Status Colors */
+    --success-light: #E8F5E9;
+    --success: #4B9F68;
+    --success-dark: #2E7D32;
+    
+    --warning-light: #FFF3E0;
+    --warning: #E8B046;
+    --warning-dark: #EF6C00;
+    
+    --error-light: #FFEBEE;
+    --error: #E15C5C;
+    --error-dark: #C62828;
+    
+    --info-light: #E3F2FD;
+    --info: #5087B2;
+    --info-dark: #1565C0;
+    
+    /* Typography */
+    --font-family: 'Montserrat', sans-serif;
+    
+    /* Font Sizes */
+    --fontSize-display-1: 3rem;
+    --fontSize-display-2: 2.25rem;
+    --fontSize-h1: 1.875rem;
+    --fontSize-h2: 1.5rem;
+    --fontSize-h3: 1.25rem;
+    --fontSize-h4: 1.125rem;
+    --fontSize-large: 1.125rem;
+    --fontSize-base: 1rem;
+    --fontSize-small: 0.875rem;
+    --fontSize-xs: 0.75rem;
+    
+    /* Font Weights */
+    --fontWeight-regular: 400;
+    --fontWeight-medium: 500;
+    --fontWeight-semibold: 600;
+    --fontWeight-bold: 700;
+    
+    /* Line Heights */
+    --lineHeight-tight: 1.25;
+    --lineHeight-normal: 1.5;
+    --lineHeight-relaxed: 1.75;
+    
+    /* Border Radius */
+    --borderRadius-none: 0;
+    --borderRadius-sm: 0.125rem;
+    --borderRadius-md: 0.375rem;
+    --borderRadius-lg: 0.5rem;
+    --borderRadius-xl: 0.75rem;
+    --borderRadius-2xl: 1rem;
+    --borderRadius-full: 9999px;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+    
+    /* Spacing */
+    --spacing-0: 0;
+    --spacing-1: 0.25rem;
+    --spacing-2: 0.5rem;
+    --spacing-3: 0.75rem;
+    --spacing-4: 1rem;
+    --spacing-6: 1.5rem;
+    --spacing-8: 2rem;
+    --spacing-12: 3rem;
+    --spacing-16: 4rem;
+    --spacing-20: 5rem;
+    --spacing-24: 6rem;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, #146452 0%, #0F4E40 100%);
+    --gradient-card: linear-gradient(to bottom, #F5F1E8 0%, white 100%);
+    --gradient-card-hover: linear-gradient(to bottom, #EBE5D7 0%, white 100%);
+    --gradient-accent: linear-gradient(to right, #D4B96A 0%, #BEA35A 100%);
+  }
+
+  strong, b {
+    @apply font-semibold;
+  }
+
+  em, i {
+    @apply italic;
+  }
+}
+
 @layer components {
   .quiz-container {
     @apply max-w-2xl mx-auto p-4 sm:p-6 md:p-8 bg-white rounded-xl sm:rounded-2xl shadow-lg;
+    border: 1px solid var(--accent-500);
   }
   
   .quiz-title {
-    @apply text-3xl sm:text-4xl font-bold text-indigo-700 text-center mb-3 sm:mb-4;
+    @apply text-3xl sm:text-4xl font-bold text-center mb-3 sm:mb-4;
+    color: var(--primary-700);
   }
   
   .quiz-subtitle {
-    @apply text-base sm:text-lg text-gray-600 text-center mb-6 sm:mb-8;
+    @apply text-base sm:text-lg text-center mb-6 sm:mb-8;
+    color: var(--primary-900);
   }
   
   .progress-bar {
-    @apply h-2 bg-indigo-100 rounded-full mb-6 sm:mb-8;
+    @apply h-2 rounded-full mb-6 sm:mb-8;
+    background-color: var(--primary-100);
   }
   
   .progress-fill {
-    @apply h-full bg-indigo-600 rounded-full transition-all duration-300;
+    @apply h-full rounded-full transition-all duration-300;
+    background-color: var(--primary-700);
   }
   
   .question-text {
-    @apply text-xl sm:text-2xl font-semibold text-gray-800 mb-4 sm:mb-6;
+    @apply text-xl sm:text-2xl font-semibold mb-4 sm:mb-6;
+    color: var(--primary-800);
   }
   
   .option-button {
-    @apply w-full p-3 sm:p-4 mb-2 sm:mb-3 flex items-center gap-2 sm:gap-3 text-left rounded-lg border-2 border-gray-200 hover:border-indigo-500 hover:bg-indigo-50 transition-all duration-200;
+    @apply w-full p-3 sm:p-4 mb-2 sm:mb-3 flex items-center gap-2 sm:gap-3 text-left rounded-lg border-2 transition-all duration-200;
+    border-color: var(--accent-400);
+    color: var(--primary-800);
+  }
+  
+  .option-button:hover {
+    border-color: var(--primary-600);
+    background-color: var(--primary-100);
   }
   
   .option-button-selected {
-    @apply border-indigo-500 bg-indigo-50;
+    border-color: var(--primary-700);
+    background-color: var(--primary-100);
   }
   
   .form-input {
-    @apply w-full p-2 sm:p-3 border-2 border-gray-200 rounded-lg focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition-all duration-200;
+    @apply w-full p-2 sm:p-3 border-2 rounded-lg outline-none transition-all duration-200;
+    border-color: var(--accent-500);
+    color: var(--primary-900);
+  }
+  
+  .form-input:focus {
+    border-color: var(--primary-700);
+    box-shadow: 0 0 0 2px rgba(20, 100, 82, 0.2);
   }
   
   .primary-button {
-    @apply w-full py-2 sm:py-3 px-4 sm:px-6 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-all duration-200 font-semibold;
+    @apply w-full py-2 sm:py-3 px-4 sm:px-6 text-white rounded-lg transition-all duration-200 font-semibold;
+    background-color: var(--primary-700);
+  }
+  
+  .primary-button:hover {
+    background-color: var(--primary-600);
+  }
+  
+  .secondary-button {
+    @apply w-full py-2 sm:py-3 px-4 sm:px-6 rounded-lg transition-all duration-200 font-semibold;
+    background-color: var(--secondary-500);
+    color: var(--primary-900);
+  }
+  
+  .secondary-button:hover {
+    background-color: var(--secondary-600);
   }
   
   .share-button {
-    @apply p-2 sm:p-3 rounded-full hover:bg-gray-100 transition-all duration-200;
+    @apply p-2 sm:p-3 rounded-full transition-all duration-200;
+  }
+  
+  .share-button:hover {
+    background-color: var(--accent-300);
   }
   
   .result-card {
     @apply bg-white p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl shadow-lg text-center;
+    border: 1px solid var(--accent-500);
   }
   
   .result-image {
@@ -56,22 +219,80 @@
   }
   
   .coach-image {
-    @apply w-16 h-16 sm:w-24 sm:h-24 rounded-full mx-auto mb-3 sm:mb-4 object-cover;
+    @apply w-20 h-20 rounded-full mx-auto mb-3 sm:mb-4 object-cover;
+    border: 3px solid var(--primary-700);
+  }
+
+  .result-title {
+    @apply text-2xl sm:text-3xl font-bold mb-4 sm:mb-6;
+    color: var(--primary-700);
+  }
+
+  .highlight {
+    @apply font-bold;
+    color: var(--secondary-500);
   }
 
   .gender-option {
-    @apply p-3 sm:p-4 rounded-xl border-2 border-gray-200 hover:border-indigo-500 transition-all duration-200;
+    @apply p-3 sm:p-4 rounded-xl border-2 transition-all duration-200;
+    border-color: var(--accent-400);
+  }
+
+  .gender-option:hover {
+    border-color: var(--primary-600);
+    background-color: var(--primary-100);
   }
 
   .gender-option-selected {
-    @apply border-indigo-500 bg-indigo-50;
+    border-color: var(--primary-700);
+    background-color: var(--primary-100);
   }
 
   .age-option {
-    @apply p-3 sm:p-4 rounded-xl border-2 border-gray-200 hover:border-indigo-500 transition-all duration-200;
+    @apply p-3 sm:p-4 rounded-xl border-2 transition-all duration-200;
+    border-color: var(--accent-400);
+  }
+
+  .age-option:hover {
+    border-color: var(--primary-600);
+    background-color: var(--primary-100);
   }
 
   .age-option-selected {
-    @apply border-indigo-500 bg-indigo-50;
+    border-color: var(--primary-700);
+    background-color: var(--primary-100);
+  }
+
+  .type-bar-container {
+    @apply mb-3;
+  }
+
+  .type-bars .type-label {
+    @apply font-medium;
+    color: var(--primary-800);
+  }
+
+  .type-bars .bg-primary-500 {
+    background-color: var(--primary-700);
+  }
+
+  .strengths {
+    background-color: var(--success-light);
+    border: 1px solid var(--success);
+  }
+
+  .challenges {
+    background-color: var(--warning-light);
+    border: 1px solid var(--warning);
+  }
+
+  .recommendations {
+    background-color: var(--info-light);
+    border: 1px solid var(--info);
+  }
+
+  .cta-section {
+    background-color: var(--accent-300);
+    border: 1px solid var(--accent-500);
   }
 }

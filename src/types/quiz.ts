@@ -1,7 +1,7 @@
 export interface OnboardingData {
   firstName: string;
-  gender: 'male' | 'female';
-  ageGroup: '18-25' | '26-35' | '36-45' | '46+';
+  gender: 'male' | 'female' | null;
+  ageGroup: '18-25' | '26-35' | '36-45' | '46+' | null;
 }
 
 export interface Question {
@@ -33,7 +33,7 @@ export interface UserData extends OnboardingData {
 }
 
 export interface QuizState {
-  step: 'welcome' | 'name' | 'gender' | 'age' | 'questions' | 'form' | 'result';
+  step: 'welcome' | 'name' | 'age' | 'questions' | 'form' | 'result';
   currentQuestion: number;
   answers: number[];
   onboardingData: OnboardingData;
