@@ -11,6 +11,9 @@ import { typeQuestions, quizTitle, quizSubtitle } from './data/typeQuizData';
 import { useTypeQuiz } from './hooks/useTypeQuiz';
 import './styles/index.css';
 
+// Check if typeQuestions is loaded correctly
+console.log('typeQuestions loaded:', typeQuestions?.length);
+
 function App() {
   const {
     state,
@@ -82,18 +85,20 @@ function App() {
                 currentQuestion={state.currentQuestion + 1}
                 totalQuestions={typeQuestions.length}
               />
-              <TypeQuizQuestion
-                key={`question-${state.currentQuestion}`}
-                question={{
-                  ...typeQuestions[state.currentQuestion],
-                  text: typeQuestions[state.currentQuestion].text.replace(
-                    '{firstName}',
-                    state.onboardingData.firstName || ''
-                  )
-                }}
-                selectedAnswer={null}
-                onSelectAnswer={handleAnswer}
-              />
+              {typeQuestions[state.currentQuestion] && (
+                <TypeQuizQuestion
+                  key={`question-${state.currentQuestion}`}
+                  question={{
+                    ...typeQuestions[state.currentQuestion],
+                    text: typeQuestions[state.currentQuestion].text.replace(
+                      '{firstName}',
+                      state.onboardingData.firstName || ''
+                    )
+                  }}
+                  selectedAnswer={null}
+                  onSelectAnswer={handleAnswer}
+                />
+              )}
             </div>
           )}
 

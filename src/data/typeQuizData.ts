@@ -455,4 +455,7 @@ export const personalityTypes: PersonalityType[] = [
     ],
     image: "https://example.com/empowered-advocate.jpg",
   },
-]; 
+];
+
+// Add a console log to verify data is exported correctly
+console.log('Quiz data loaded:', typeQuestions.length, 'questions,', personalityTypes.length, 'personality types'); 

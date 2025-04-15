@@ -40,11 +40,14 @@ export const useTypeQuiz = () => {
 
   const handleAnswer = (type: string) => {
     const newAnswers = [...state.answers, type];
+    const nextQuestion = state.currentQuestion + 1;
+    const isLastQuestion = nextQuestion >= 10; // We have 10 questions (0-9)
+    
     setState((prev: QuizState) => ({
       ...prev,
       answers: newAnswers,
-      currentQuestion: prev.currentQuestion + 1,
-      step: prev.currentQuestion === 9 ? 'form' : 'questions' // We have 10 questions (0-9)
+      currentQuestion: isLastQuestion ? prev.currentQuestion : nextQuestion,
+      step: isLastQuestion ? 'form' : 'questions'
     }));
   };
 
