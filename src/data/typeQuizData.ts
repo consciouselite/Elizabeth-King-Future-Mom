@@ -323,7 +323,7 @@ export const personalityTypes: PersonalityType[] = [
   {
     type: "Nurturing Navigator",
     description:
-      "You're a fucking emotional genius when it comes to motherhood. For you, parenting isn't about schedules or achievements—it's about the soul-deep connection that happens in those quiet moments when your child feels completely seen and heard by you.",
+      "You're an emotional genius when it comes to motherhood. For you, parenting isn't about schedules or achievements—it's about the soul-deep connection that happens in those quiet moments when your child feels completely seen and heard by you.",
     strengths: [
       "You can read your kid's emotional state better than anyone",
       "You create emotional sanctuaries everywhere you go",
@@ -345,12 +345,12 @@ export const personalityTypes: PersonalityType[] = [
       "Find ways to honor emotions while still maintaining necessary boundaries",
       "Practice self-care to replenish your emotional resources"
     ],
-    image: "https://example.com/nurturing-navigator.jpg",
+    image: "https://images.pexels.com/photos/5119802/pexels-photo-5119802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     type: "Structured Stability",
     description:
-      "Holy shit, you're the reason your family functions! While everyone else is flailing around wondering what's for dinner, you've already planned meals for the week, organized the carpool schedule, and created a chore chart that actually works.",
+      "Wow, you're the reason your family functions! While everyone else is flailing around wondering what's for dinner, you've already planned meals for the week, organized the carpool schedule, and created a chore chart that actually works.",
     strengths: [
       "You create secure, predictable environments where kids thrive",
       "Your organizational skills prevent unnecessary family stress",
@@ -372,12 +372,12 @@ export const personalityTypes: PersonalityType[] = [
       "Schedule spontaneous time—yes, that sounds contradictory, but it works!",
       "Focus on the purpose behind routines rather than perfect execution"
     ],
-    image: "https://example.com/structured-stability.jpg",
+    image: "https://images.pexels.com/photos/6212713/pexels-photo-6212713.jpeg",
   },
   {
     type: "Wisdom Cultivator",
     description:
-      "You're raising tiny philosophers, and it's fucking brilliant. While other parents are answering questions, you're asking them right back—\"Well, what do YOU think happens when we die?\"—and watching your kid's mind explode with possibilities.",
+      "You're raising tiny philosophers, and it's brilliant. While other parents are answering questions, you're asking them right back—\"Well, what do YOU think happens when we die?\"—and watching your kid's mind explode with possibilities.",
     strengths: [
       "You foster critical thinking and independent reasoning",
       "You naturally develop children's curiosity and love of learning",
@@ -399,12 +399,12 @@ export const personalityTypes: PersonalityType[] = [
       "Practice giving direct answers when appropriate, especially for safety issues",
       "Use stories and metaphors to make complex ideas developmentally accessible"
     ],
-    image: "https://example.com/wisdom-cultivator.jpg",
+    image: "https://images.pexels.com/photos/10565684/pexels-photo-10565684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     type: "Adventure Catalyst",
     description:
-      "You're the mom other kids wish they had, and that's not bullshit. Your approach to motherhood? Make. It. MAGICAL. Why have breakfast when you can have a pancake picnic on the living room floor? Why drive the normal route when you can take the \"scenic adventure path\" that's only 10 minutes longer?",
+      "You're the mom other kids wish they had, and that's not an exaggeration. Your approach to motherhood? Make. It. MAGICAL. Why have breakfast when you can have a pancake picnic on the living room floor? Why drive the normal route when you can take the \"scenic adventure path\" that's only 10 minutes longer?",
     strengths: [
       "You create magical childhood memories through everyday adventures",
       "You naturally cultivate a sense of wonder and possibility",
@@ -426,12 +426,12 @@ export const personalityTypes: PersonalityType[] = [
       "Balance big adventures with small, manageable moments of magic",
       "Remember that adventure doesn't always mean going somewhere—it's a mindset"
     ],
-    image: "https://example.com/adventure-catalyst.jpg",
+    image: "https://images.pexels.com/photos/1157399/pexels-photo-1157399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     type: "Empowered Advocate",
     description:
-      "You're not just raising kids; you're raising little revolutionaries, and it's badass. While other parents are avoiding \"difficult topics,\" you're at the kitchen table talking about consent, privilege, and why that TV commercial is problematic AF.",
+      "You're not just raising kids; you're raising little revolutionaries, and it's amazing. While other parents are avoiding \"difficult topics,\" you're at the kitchen table talking about consent, privilege, and why that TV commercial is problematic.",
     strengths: [
       "You nurture children's sense of agency and empowerment",
       "You naturally develop children's civic engagement and social responsibility",
